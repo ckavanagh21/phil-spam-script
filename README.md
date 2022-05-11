@@ -1,7 +1,7 @@
 # phil-spam-script
 Spam script for spaming comment sections in various phils for pikapp.
 Tutorial: https://youtu.be/UMK7mCgLHB4
-(The tutorial is slighlty outdated. Ignore the part where I tell you to edit the file and instead just run it.)
+(The tutorial is slightly outdated. Ignore the part where I tell you to edit the file and instead just run it.)
 
 Text instructions:
 1. Download Python on your computer from this link: https://www.python.org/downloads/
