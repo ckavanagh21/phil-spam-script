@@ -1,3 +1,4 @@
+
 import keyboard
 import time
 import random
@@ -6,6 +7,7 @@ if "3" in programSelection:
     text = input("Please enter the text that you would like printed.\n")
 else:
         numberOfRepetitions = int(input("How many times would you like to send a message?  (Pick a number)\n"))
+spacer = int(input("How much seconds would you like the program to wait between sending messages (decimals are allowed)?\n"))
 print("Program starting in in 5...")
 time.sleep(1)
 print("4..")
@@ -23,20 +25,20 @@ if "1" in programSelection:
        keyboard.write("Pi Kapp")
        keyboard.press("enter")
        keyboard.release("enter")
-       time.sleep(0.5)
+       time.sleep(spacer)
 elif "2" in programSelection:
     for i in range(numberOfRepetitions):
         keyboard.write(str(i))
         keyboard.press("enter")
         keyboard.release("enter")
-        time.sleep(0.5)
+        time.sleep(spacer)
 elif "3" in programSelection:
     listText = text.split()
     for i in listText:
         keyboard.write(i)
         keyboard.press("enter")
         keyboard.release("enter")
-        time.sleep(0.5)
+        time.sleep(spacer)
 else:
     print("Error! Please make sure you enter in a proper program number and try again.")
 print("Program finished running! You can close this window.")
