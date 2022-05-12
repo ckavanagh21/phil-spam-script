@@ -7,7 +7,7 @@ if "3" in programSelection:
     text = input("Please enter the text that you would like printed.\n")
 else:
         numberOfRepetitions = int(input("How many times would you like to send a message?  (Pick a number)\n"))
-spacer = int(input("How much seconds would you like the program to wait between sending messages (decimals are allowed)?\n"))
+spacer = float(input("How much seconds would you like the program to wait between sending messages (decimals are allowed)?\n"))
 print("Program starting in in 5...")
 time.sleep(1)
 print("4..")
