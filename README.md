@@ -1,5 +1,10 @@
 # phil-spam-script
-Spam script for spaming comment sections in various phils for pikapp.
+Spam script for spaming comment sections in various phils for pikapp. This program acts as an automated keyboard input, so you don't have to manually type in comments. 
+
+Here's the easiest way to use the program:
+1. Download the entire folder and extract it.
+2. Go to the "dist" folder. Run the "spam_script.exe".
+
 Tutorial: https://youtu.be/UMK7mCgLHB4
 (The tutorial is slightly outdated. Ignore the part where I tell you to edit the file and instead just run it.)
 
