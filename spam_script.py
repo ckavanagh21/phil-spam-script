@@ -42,5 +42,3 @@ elif "3" in programSelection:
 else:
     print("Error! Please make sure you enter in a proper program number and try again.")
 print("Program finished running! You can close this window.")
-
-63
